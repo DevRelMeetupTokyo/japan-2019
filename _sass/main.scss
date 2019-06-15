@@ -75,6 +75,11 @@ $primary: $pink;
 	}
 }//navbar_extend
 
+h2.font_oswald {
+	padding-top: 60px;
+}
+
+
 .jumbotron_extend{
 	margin-top: 56px;
 	position: relative;
@@ -377,3 +382,7 @@ $primary: $pink;
 @import "spinners";
 @import "utilities";
 @import "print";
+
+.header-content {
+	padding-top: 0px !important;
+}

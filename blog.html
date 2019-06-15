@@ -5,18 +5,15 @@ layout: default
 
 
 <div class="fluid_extend coc_extend py-5 bg-light">
-    <div class="container">
-      <div class="row">
+  <div class="container">
+    <div class="row">
 
-
-
-
-          <div class="col-12">
-            <h1 class="mb-3 text-left mb-1 font_oswald">BLOG</h1>
-            <p class="mb-4 mb-sm-5 text-primary">ブログ</p>
-          </div><!-- /col -->
-      </div><!-- /row -->
-    </div><!-- /container-fluid -->
+      <div class="col-12">
+        <h1 class="mb-3 text-left mb-1 font_oswald">BLOG</h1>
+        <p class="mb-4 mb-sm-5 text-primary">ブログ</p>
+      </div><!-- /col -->
+    </div><!-- /row -->
+  </div><!-- /container-fluid -->
 </div><!-- fluid_extend -->
 
 
@@ -24,19 +21,18 @@ layout: default
 <div class="container">
   <div class="row py-3 py-sm-5">
     <div class="col-12">
-        <div class="">
-          {% for post in site.posts %}
-            <div class="media media_extend border-bottom py-3 py-sm-4">
-                <a href="#"><img class="d-flex mr-3" src="http://placehold.jp/100x100.png" alt=""></a>
-                  <div class="media-body">
-                    <h2 class="mt-0"><a href="{{ post.url | relative_url }}" class="text-dark">{{ post.title }}</a></h2>
-                    <p class="font_noto300 mb-0">{{post.date | date: "%Y.%m.%d"}} {{post.author}}</p>
-                    <p class="font_noto300 mb-0">{{ post.excerpt }} <a href="{{ post.url | relative_url }}">...もっと読む</a></p>
-                  </div>
+      <div class="">
+        {% for post in site.posts %}
+          <div class="media media_extend border-bottom py-3 py-sm-4">
+            <div class="media-body">
+              <h2 class="mt-0"><a href="{{ post.url | relative_url }}" class="text-dark">{{ post.title }}</a></h2>
+              <p class="font_noto300 mb-0">{{post.date | date: "%Y.%m.%d"}} {{post.author}}</p>
+              <p class="font_noto300 mb-0">{{ post.excerpt }} <a href="{{ post.url | relative_url }}">...もっと読む</a></p>
             </div>
-          {% endfor %}
+          </div>
+        {% endfor %}
 
-        </div><!-- coc_extend__area -->
+      </div><!-- coc_extend__area -->
     </div>
   </div><!-- row -->
 </div><!-- container-fluid -->
