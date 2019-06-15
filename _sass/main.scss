@@ -1,0 +1,388 @@
+/******************************************
+個別スタイル用メディアクエリfunctions
+*******************************************/
+@mixin mq($breakpoint: medium) {
+	@if $breakpoint == xs {
+		@media screen and (min-width: 576px) {
+			@content;
+		}
+	} @else if $breakpoint == sm {
+		@media screen and (min-width: 768px) {
+			@content;
+		}
+	} @else if $breakpoint == md {
+		@media screen and (min-width: 992px) {
+			@content;
+		}
+	} @else if $breakpoint == lg {
+		@media screen and (min-width: 1200px) {
+			@content;
+		}
+	} @else if $breakpoint == xl {
+		@media screen and (max-width: 1201px) {
+			@content;
+		}
+	}
+}
+
+/******************************************
+フォント指定
+*******************************************/
+.font_oswald{
+	font-family: 'Oswald', sans-serif;
+}
+.font_noto300{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 300;
+}
+.font_noto{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 500;
+}
+.font_noto700{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 700;
+}
+
+/******************************************
+_variablesから必要項目を上書き変更
+*******************************************/
+$enable-rounded: false;	//ボタンの角丸をなくす
+
+$white: #fff;
+$pink: #FF7376;	//メインカラーの変更
+$primary: $pink;
+
+/******************************************
+個別スタイル指定
+*******************************************/
+.navbar_extend{
+	background-color: $white;
+	height: 56px;
+	&__toggle{
+		width: 56px;
+		height: 56px;
+	}
+	&__nav{
+		background-color: rgba($white,0.9);
+	}
+	&__ticket{
+		background-color: $pink;
+		@include mq("sm"){
+			height: 56px;
+			line-height: 56px;
+		}
+	}
+}//navbar_extend
+
+h2.font_oswald {
+	padding-top: 60px;
+}
+
+
+.jumbotron_extend{
+	margin-top: 56px;
+	position: relative;
+    height: 40vh;
+	background: url(/japan-2019/assets/img/main.jpg) no-repeat center center;
+	background-size: cover;
+	@include mq("sm"){
+		height: 60vh;
+		min-height: 300px;
+	}
+	&__area{
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		@include mq("sm"){
+			width: 50%;
+			max-width: 500px;
+		}
+	}
+	&__logo{
+		background-color: rgba($white,0.8);
+	}
+	&__date{
+		background-color: rgba($pink,0.8);
+		color: $white;
+		@include mq("sm"){
+			font-size: 1.8rem;
+			font-weight: bold;
+		}
+	}
+}//jumbotron_extend
+
+.twocol_extend{
+	&__area{
+		width: 50%;
+	}
+	&__width{
+		@include mq("sm"){
+			width: 75%;
+		}
+	}
+	&__bgpink{
+		background-color: rgba($pink,0.1);
+	}
+}//twocol_extend
+
+.fluid_extend{
+	&--glay{
+		background-color: #f9f9f9;
+	}
+}//fluid_extend
+
+.people-detail{
+	background-color: #333;
+	border-top: 5px solid $pink;
+	&__name{
+		font-size: 1.1rem;
+		@include mq("sm"){
+			font-size: 1.3rem;
+		}
+	}
+	&__links{
+		font-size: 1.4rem;
+		i{
+			&:hover{
+				color: #ccc;
+			}
+		}
+	}
+	&__ph{
+		&:hover{
+			opacity: 0.7;
+		}
+	}
+}//people-detail
+
+.nav-tabs-extend{
+	border-bottom: 0px;
+	.nav-item{
+		background-color: rgba( $pink,0.3);
+		border-left: 3px solid $white;
+		border-right: 3px solid $white;
+		@include mq("sm"){
+			font-size: 1.3rem;
+		}
+	}
+	.nav-link{
+		color: #333;
+		&.active{
+			background-color: rgba( $pink,1);
+			color: $white;
+		}
+		&:hover{
+			background-color: rgba( $pink,1);
+			color: $white;
+		}
+	}
+}//nav-tabs-extend
+
+.schedule_extend{
+	table{
+		th,td{
+			background-color: #f3f3f3;
+			border-top: 6px solid $white;
+		}
+		td{
+			span{
+				color: #777;
+				display: block;
+			}
+		}
+		th{
+			width: 1%;
+			white-space: nowrap;
+		}
+		td:nth-child(2){
+			width: 1%;
+			white-space: nowrap;
+		}
+	}
+}//schedule_extend
+
+.sponsor_extend{
+	a{
+		text-decoration: none;
+		&:hover{
+			text-decoration: none;
+			opacity: 0.7;
+		}
+	}
+	&__name{
+		color: #333;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}//sponsor_extend
+
+
+.pasonal_extend{
+	margin-top: 56px;
+	&__nameen{
+		font-size: 2.4rem;
+	}
+	&__nameja{
+		font-size: 1.5rem;
+	}
+	&__company{
+		font-size: 1.1rem;
+	}
+}//pasonal_extend
+
+.talkov_extend{
+	background: #f9f9f9;
+	&__area{
+		@include mq("sm"){
+			width: 75%;
+			margin: 0 auto;
+			font-size: 1.1rem;
+		}
+	}
+	&__title{
+		position: relative;
+		display: inline-block;
+		margin: 1.5em 0;
+		padding: 1rem;
+		max-width: 100%;
+		color: $white;
+		background: $pink;
+		&:before {
+			content: "";
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			margin-left: -15px;
+			border: 15px solid transparent;
+			border-top: 15px solid $pink;
+		  }
+	}
+}//talkov_extend
+
+.coc_extend{
+	margin-top: 56px;
+	&__area{
+		@include mq("sm"){
+			width: 75%;
+			margin: 0 auto;
+			font-size: 1.1rem;
+			line-height: 1.8;
+		}
+		h2{
+			border-bottom: solid 5px #333;
+			position: relative;
+			padding: 0 0 0.5rem 0;
+			margin: 3rem 0 1rem 0;
+			font-size: 1.6rem;
+			font-weight: bold;
+			  &:after {
+				position: absolute;
+				content: " ";
+				display: block;
+				border-bottom: solid 5px $pink;
+				bottom: -5px;
+				width: 20%;
+			  }
+		}
+	}
+}//coc_extend
+
+.post_extend{
+	&__title{
+		font-size: 2rem;
+		@include mq("sm"){
+			font-size: 2.4rem;
+		}
+	}
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 300;
+	line-height: 1.9;
+	h2,h3,h4,h5,h6{
+		margin: 2rem 0 1rem 0;
+		font-weight: bold;
+		font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 700;
+	}
+	p,ul,ol,dl{
+		font-size: 1.1rem;
+		color: #333;
+	}
+	ul,ol,dl,table{
+		margin: 2rem 0;
+	}
+	img{
+		margin: 2rem auto;
+		display: block;
+	}
+	strong{
+		font-weight: bold;
+		font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 700;
+	}
+	blockquote{
+		background: #f7f7f7;
+		padding: 2rem;
+	}
+}//post_extend
+
+.media_extend{
+	h2{
+		font-size: 1.4rem;
+		@include mq("sm"){
+			font-size: 1.8rem;
+		}
+	}
+}//media_extend
+
+/******************************************
+以下、bootstrapデフォルト記述。基本触らない
+*******************************************/
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+.header-content {
+	padding-top: 0px !important;
+}

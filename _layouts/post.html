@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+
+<div class="fluid_extend coc_extend py-5 bg-light">
+    <div class="container">
+      <div class="row">
+          <div class="col-12">
+            <h1 class="mb-3 text-left post_extend__title">{{page.title}}</h1>
+            <p class="text-dark">
+              <i class="fas fa-clock"></i> {{page.date | date: "%Y.%m.%d"}}
+            </p>
+          </div><!-- /col -->
+      </div><!-- /row -->
+    </div><!-- /container-fluid -->
+</div><!-- fluid_extend -->
+
+
+
+<div class="container">
+  <div class="row py-3 py-sm-5">
+    <div class="col-12">
+        <div class="post_extend">
+
+          {{content}}
+
+        </div><!-- coc_extend__area -->
+    </div>
+  </div><!-- row -->
+</div><!-- container-fluid -->
