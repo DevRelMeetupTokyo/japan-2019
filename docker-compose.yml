@@ -3,6 +3,6 @@ services:
     site:
         image: starefossen/github-pages:172
         volumes:
-            - "./:/usr/src/app"
+            - "${YOUR_WORK_DIR}:/usr/src/app"
         ports:
             - 4000:4000
