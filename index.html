@@ -110,8 +110,12 @@ layout: default
             <div class="people-detail p-2 p-sm-2">
               <p class="people-detail__name text-white text-center mb-1">{{member.name}}</p>
               <p class="people-detail__links mb-0 text-center">
-                <a href="https://github.com/{{member.github}}" target="_blank" class="text-white"><i class="fab fa-twitter-square"></i></a>
-                <a href="https://twitter.com/{{member.twitter}}" target="_blank" class="text-white"><i class="fab fa-github-square"></i></a>
+                {% if member.github != "" %}
+                  <a href="https://github.com/{{member.github}}" target="_blank" class="text-white"><i class="fab fa-github-square"></i></a>
+                {% endif %}
+                {% if member.twitter != "" %}
+                  <a href="https://twitter.com/{{member.twitter}}" target="_blank" class="text-white"><i class="fab fa-twitter-square"></i></a>
+                {% endif %}
               </p>
             </div><!-- people-detail -->
           </div>
