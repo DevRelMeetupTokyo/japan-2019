@@ -16,19 +16,20 @@
 title: DEVREL/JAPAN CONFERENCE 2019
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/japan-2019" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  DEVREL/JAPAN CONFERENCE 2019 はDevRel、DX（開発者体験）、開発者コミュニティ、APIそして開発者マーケティングに関するカンファレンスです。
+baseurl: /japan-2019 # the subpath of your site, e.g. /blog
+url: https://devrel.tokyo # the base hostname & protocol for your site, e.g. http://example.com
+twitter:
+  username: devrelTokyo
+  card: summary_large_image
+lang: ja_JP
 
-# Build settings
+  # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 sass:
   style: compact # possible values: nested expanded compact compressed
 
@@ -46,12 +47,16 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
       excerpt_separator: <!--more-->
       permalink: /blog/:year/:month/:day/:title/
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/ogp.png
