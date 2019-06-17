@@ -1,4 +1,4 @@
-# DevRel/Japan 公式ウェブサイト
+# DevRel/Japan Conference 公式ウェブサイト
 
 ## Getting started
 
