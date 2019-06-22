@@ -1,4 +1,3 @@
-start
 ---
 title:  "DevRel関連のコミュニティのご紹介"
 date:   2019-06-24 12:05:59 +0000
@@ -21,10 +20,10 @@ DevRelのやり方は一つではありません。誰がやっても同じで�
 DevRel活動に興味がある方、マーケティングに携わっている・興味があるかたは是非参加してくださいね。
 
 DevRel/Japanは以下の日程で開催します。
-　　公式サイト : https://devrel.tokyo/japan-2019/
-　　お申込　　 :
-　　開催日        :2019年9月7日(土)
-　　開催場所    :サイボウズ株式会社様（日本橋タワー）
+　　## 公式サイト :  [DevRel/JAPAN](https://devrel.tokyo/japan-2019/)
+　　## お申込　　 :
+　　## 開催日    :2019年9月7日(土)
+　　## 開催場所   :サイボウズ株式会社様（日本橋タワー）
 まだまだ先と思っている方。すぐそこですよ〜。
 
 ◆６月に行われたDevRel 関連イベントのご報告
@@ -49,13 +48,13 @@ DevRel/Japanは以下の日程で開催します。
 もう待てないという方には、DevRel関連情報をお知らせしますね。
 ぜひぜひこちらもチェックしてください。
 DevRel Meetup #43
-　申込URL　　　: https://devrel.connpass.com/event/134434/
+　申込URL　　　:  [DevRel Meetup in Tokyo](https://devrel.connpass.com/event/134434/)
 　開催日　　　　:2019年7月3日(水)
 　開催場所　　　:株式会社ハートビーツ様
 　テーマ      :ファシリテーション
 
 DevRel/Community #3
-　申込URL　　　: https://devrel.connpass.com/event/133456/
+　申込URL　　　:  [DevRel/communuty](https://devrel.connpass.com/event/133456/)
 　開催日      :2019年6月28日(金)
 　開催場所　　　:サイボウズ会社様（日本橋タワー）
 
