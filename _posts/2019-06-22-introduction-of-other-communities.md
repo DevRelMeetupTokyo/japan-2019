@@ -29,7 +29,7 @@ DevRel/Japanは以下の日程で開催します。
 
 
 ## 他コミュニティのご紹介
-![devrelmark01](../assets/img/screenshot01.jpg)  
+![devrelmark01]({{ site.url }}/assets/img/screenshot01.jpg)  
 ![devrelmark02](../assets/img/screenshot02.jpg)  
 ![devrelmark03](../assets/img/screenshot03.jpg)  
 ６月に行われたDevRel 関連イベントのご報告
