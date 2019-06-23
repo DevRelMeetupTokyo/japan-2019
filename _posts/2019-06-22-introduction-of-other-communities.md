@@ -1,6 +1,6 @@
 ---
 title:  "DevRel関連のコミュニティのご紹介"
-date:   2019-06-24 12:05:59 +0000
+date:   2019-06-22 12:05:59 +0000
 author: Aritomo Matsutani
 ---
 
