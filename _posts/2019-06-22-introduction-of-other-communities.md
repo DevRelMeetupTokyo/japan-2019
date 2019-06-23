@@ -29,6 +29,8 @@ DevRel/Japanは以下の日程で開催します。
 
 
 ## 他コミュニティのご紹介
+<img src="attach:/assets/img/screenshot01.jpg" alt="attach:cat" title="attach:devrel" width="200" height="200">  
+
 ![devrelmark01]({{ site.url }}/assets/img/screenshot01.jpg)  
 ![devrelmark02](../assets/img/screenshot02.jpg)  
 ![devrelmark03](../assets/img/screenshot03.jpg)  
