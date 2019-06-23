@@ -29,9 +29,7 @@ DevRel/Japanは以下の日程で開催します。
 
 
 ## 他コミュニティのご紹介
-![devrelmark03]({{site.baseurl}}/images/screenshot03.jpg){: height="120px" width="120px"} 
-![devrelmark01]({{site.baseurl}}/images/screenshot01.jpg){: height="120px" width="120px"} 
-![devrelmark02]({{site.baseurl}}/images/screenshot02.jpg){: height="120px" width="120px"}   
+![devrelmark03]({{site.baseurl}}/images/screenshot03.jpg){: height="500px" width="350px"} ![devrelmark01]({{site.baseurl}}/images/screenshot01.jpg){: height="500px" width="350px"} ![devrelmark02]({{site.baseurl}}/images/screenshot02.jpg){: height="500px" width="350px"}   
 ６月に行われたDevRel 関連イベントのご報告
 ６月３日(月)  DevRel Meetup #42  が開催されました。  
 今回のテーマは「しくじり先生」です。  
