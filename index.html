@@ -67,7 +67,16 @@ layout: default
       </div>
     </div><!-- row -->
 
-    <p class="text-center">受付中</p>
+    <div class="row">
+      {% for sponsor in site.data.sponsors %}
+        <div class="col-6 col-md-3 sponsor_extend mb-3">
+          <a href="{{sponsor.url}}" target="_blank" class="p-2 d-block bg-white">
+            <img class="img-fluid" src="{{site.baseurl}}/assets/img/sponsors/{{sponsor.image}}.png" alt="{{sponsor.name}}">
+            <p class="sponsor_extend__name text-center mb-0">{{sponsor.name}}</p>
+          </a>
+        </div>
+      {% endfor %}
+    </div><!-- row -->
   </div><!-- container-fluid -->
 </div><!-- /fluid_extend -->
 
@@ -104,22 +113,22 @@ layout: default
     </div><!-- row -->
 
     <div class="row">
-        {% for member in site.data.organizers %}
-          <div class="col-6 col-md-3 mb-4 mb-sm-5">
-            <a href="#" class="people-detail__ph"><img class="img-fluid" src="{{site.baseurl}}/assets/img/members/{{member.img}}.jpg" alt="{{member.name}}"></a>
-            <div class="people-detail p-2 p-sm-2">
-              <p class="people-detail__name text-white text-center mb-1">{{member.name}}</p>
-              <p class="people-detail__links mb-0 text-center">
-                {% if member.github != "" %}
-                  <a href="https://github.com/{{member.github}}" target="_blank" class="text-white"><i class="fab fa-github-square"></i></a>
-                {% endif %}
-                {% if member.twitter != "" %}
-                  <a href="https://twitter.com/{{member.twitter}}" target="_blank" class="text-white"><i class="fab fa-twitter-square"></i></a>
-                {% endif %}
-              </p>
-            </div><!-- people-detail -->
-          </div>
-        {% endfor %}
+      {% for member in site.data.organizers %}
+        <div class="col-6 col-md-3 mb-4 mb-sm-5">
+          <a href="#" class="people-detail__ph"><img class="img-fluid" src="{{site.baseurl}}/assets/img/members/{{member.img}}.jpg" alt="{{member.name}}"></a>
+          <div class="people-detail p-2 p-sm-2">
+            <p class="people-detail__name text-white text-center mb-1">{{member.name}}</p>
+            <p class="people-detail__links mb-0 text-center">
+              {% if member.github != "" %}
+                <a href="https://github.com/{{member.github}}" target="_blank" class="text-white"><i class="fab fa-github-square"></i></a>
+              {% endif %}
+              {% if member.twitter != "" %}
+                <a href="https://twitter.com/{{member.twitter}}" target="_blank" class="text-white"><i class="fab fa-twitter-square"></i></a>
+              {% endif %}
+            </p>
+          </div><!-- people-detail -->
+        </div>
+      {% endfor %}
     </div><!-- row -->
   </div><!-- container-fluid -->
 </div><!-- /fluid_extend -->
