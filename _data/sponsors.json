@@ -13,5 +13,10 @@
     "name": "グレープシティ",
     "url": "https://www.grapecity.co.jp/developer",
     "image": "grapecity"
+  },
+  {
+    "name": "ヴァル研究所",
+    "url": "https://ekiworld.net/service/lp/webservice/",
+    "image": "val"
   }
 ]
