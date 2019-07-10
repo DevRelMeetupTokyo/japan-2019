@@ -72,7 +72,14 @@ layout: default
         <div class="col-6 col-md-3 sponsor_extend mb-3">
           <a href="{{sponsor.url}}" target="_blank" class="p-2 d-block bg-white">
             <img class="img-fluid" src="{{site.baseurl}}/assets/img/sponsors/{{sponsor.image}}.png" alt="{{sponsor.name}}">
-            <p class="sponsor_extend__name text-center mb-0">{{sponsor.name}}</p>
+            <p class="sponsor_extend__name text-center mb-0">
+              {% assign length = sponsor.name | size %}
+              {%if length > 16 %}
+                <span style="font-size: 1.0vw;">{{sponsor.name}}</span>
+              {% else %}
+              {{sponsor.name}}
+              {% endif %}
+            </p>
           </a>
         </div>
       {% endfor %}
