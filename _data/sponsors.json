@@ -18,5 +18,15 @@
     "name": "ヴァル研究所",
     "url": "https://ekiworld.net/service/lp/webservice/",
     "image": "val"
+  },
+  {
+    "name": "マジセミ",
+    "url": "https://majisemi.com/service/",
+    "image": "majisemi"
+  },
+  {
+    "name": "インフラジスティックス・ジャパン",
+    "url": "https://jp.infragistics.com/user-group-sponsorships",
+    "image": "infragistics"
   }
 ]
