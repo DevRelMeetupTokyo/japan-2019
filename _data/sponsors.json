@@ -2,46 +2,67 @@
   {
     "name": "MOONGIFT",
     "url": "https://devrel.jp/",
-    "image": "moongift"
+    "image": "moongift",
+    "type": "logo"
   },
   {
     "name": "CData Software Japan",
     "url": "https://www.cdata.com/jp/",
-    "image": "cdata"
+    "image": "cdata",
+    "type": "logo"
   },
   {
     "name": "グレープシティ",
     "url": "https://www.grapecity.co.jp/developer",
-    "image": "grapecity"
+    "image": "grapecity",
+    "type": "logo"
   },
   {
     "name": "ヴァル研究所",
     "url": "https://ekiworld.net/service/lp/webservice/",
-    "image": "val"
+    "image": "val",
+    "type": "logo"
   },
   {
     "name": "マジセミ",
     "url": "https://majisemi.com/service/",
-    "image": "majisemi"
+    "image": "majisemi",
+    "type": "logo"
   },
   {
     "name": "インフラジスティックス",
     "url": "https://jp.infragistics.com/user-group-sponsorships",
-    "image": "infragistics"
+    "image": "infragistics",
+    "type": "logo"
   },
   {
     "name": "ウフル",
     "url": "https://uhuru.co.jp/",
-    "image": "uhuru"
+    "image": "uhuru",
+    "type": "logo"
   },
   {
     "name": "マイクロソフト",
     "url": "https://azure.microsoft.com/ja-jp/",
-    "image": "microsoft"
+    "image": "microsoft",
+    "type": "logo"
   },
   {
     "name": "ヌーラボ",
     "url": "https://backlog.com/ja/",
-    "image": "backlog"
+    "image": "backlog",
+    "type": "logo"
+  },
+  {
+    "name": "翔泳社",
+    "url": "https://codezine.jp/",
+    "image": "codezine",
+    "type": "media"
+  },
+  {
+    "name": "サイボウズ",
+    "url": "https://cybozu.co.jp/",
+    "image": "cybozu",
+    "type": "venue"
   }
 ]
