@@ -33,5 +33,15 @@
     "name": "ウフル",
     "url": "https://uhuru.co.jp/",
     "image": "uhuru"
+  },
+  {
+    "name": "マイクロソフト",
+    "url": "https://azure.microsoft.com/ja-jp/",
+    "image": "microsoft"
+  },
+  {
+    "name": "ヌーラボ",
+    "url": "https://backlog.com/ja/",
+    "image": "backlog"
   }
 ]
