@@ -27,7 +27,8 @@ layout: default
             <div class="media-body">
               <h2 class="mt-0"><a href="{{ post.url | relative_url }}" class="text-dark">{{ post.title }}</a></h2>
               <p class="font_noto300 mb-0">{{post.date | date: "%Y.%m.%d"}} {{post.author}}</p>
-              <p class="font_noto300 mb-0">{{ post.excerpt }} <a href="{{ post.url | relative_url }}">...もっと読む</a></p>
+              <p class="font_noto300 mb-0">{{ post.excerpt | strip_html | escape }}</p>
+              <a href="{{ post.url | relative_url }}">...もっと読む</a>
             </div>
           </div>
         {% endfor %}
