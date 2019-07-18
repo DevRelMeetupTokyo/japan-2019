@@ -64,5 +64,11 @@
     "url": "https://cybozu.co.jp/",
     "image": "cybozu",
     "type": "venue"
+  },
+  {
+    "name": "SBクラウド",
+    "url": "https://www.sbcloud.co.jp/ ",
+    "image": "sbcloud",
+    "type": "logo"
   }
 ]
