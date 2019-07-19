@@ -70,5 +70,11 @@
     "url": "https://www.sbcloud.co.jp/ ",
     "image": "sbcloud",
     "type": "logo"
+  },
+  {
+    "name": "Twilio Japan",
+    "url": "",
+    "image": "twilio",
+    "type": "logo"
   }
 ]
