@@ -71,7 +71,7 @@ layout: default
       {% for sponsor in site.data.sponsors %}
         {% if sponsor.type == "logo" %}
           <div class="col-6 col-md-3 sponsor_extend mb-3">
-            <a href="{{sponsor.url}}" target="_blank" class="p-2 d-block bg-white">
+            <a href="{{sponsor.url}}" target="_blank" class="p-2 d-block bg-white" {% if sponsor.url == "" %}onclick="javascript:return false;" style="cursor:default !important;"{% endif %}>
               <img class="img-fluid" src="{{site.baseurl}}/assets/img/sponsors/{{sponsor.image}}.png" alt="{{sponsor.name}}">
               <p class="sponsor_extend__name text-center mb-0">
                 {% assign length = sponsor.name | size %}
