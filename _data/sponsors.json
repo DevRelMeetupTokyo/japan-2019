@@ -76,5 +76,17 @@
     "url": "https://www.twilio.com/",
     "image": "twilio",
     "type": "logo"
+  },
+  {
+    "name": "オープンストリーム",
+    "url": "https://www.opst.co.jp/",
+    "image": "opst",
+    "type": "logo"
+  },
+  {
+    "name": "Elasticsearch",
+    "url": "https://www.elastic.co/jp/",
+    "image": "elastic",
+    "type": "logo"
   }
 ]
