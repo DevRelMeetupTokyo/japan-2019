@@ -1,6 +1,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{% if session %}
+<title>{{session.name}}{% if session.company != "" %} ({{session.company}}){% endif %} - {{session.title}} {{ site.title }}</title>
+{% else %}
 <title>{{ site.title }}</title>
+{% endif %}
 <meta name="keywords" content="DevRel," />
 <meta name="description" content="" />
 <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
