@@ -105,4 +105,40 @@
             'submittingMessage': "お待ちください…"
         }
     }
+    const changeStyle = () => {
+      const patterns = {};
+      let fontSize = 0;
+      document.querySelectorAll('.speakers .people-detail__name').forEach(d => {
+        if (!patterns[d.clientHeight]) patterns[d.clientHeight] = 0;
+        patterns[d.clientHeight]++;
+        fontSize = parseFloat(window.getComputedStyle(d, null).getPropertyValue('font-size'));
+      });
+      let maxSize = 0;
+      let cssHeight = 0;
+      for (let key in patterns) {
+        if (patterns[key] > maxSize) {
+          cssHeight = parseInt(key);
+          maxSize = patterns[key];
+        }
+      }
+      document.querySelectorAll('.speakers .people-detail__name').forEach(d => {
+        if (d.clientHeight > cssHeight) {
+          d.style.fontSize = fontSize * (cssHeight / d.clientHeight) + 'px';
+          d.style.height = cssHeight + 'px';
+        }
+        if (d.clientHeight < cssHeight) {
+          d.style.fontSize = fontSize + 'px';
+          d.style.height = cssHeight + 'px';
+        }
+      });
+    }
+    document.addEventListener('DOMContentLoaded', e => {
+      changeStyle();
+    });
 </script>
+
+<style>
+  .speakers .people-detail__name {
+    word-break: break-all;
+  }
+</style>
