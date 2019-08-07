@@ -88,5 +88,11 @@
     "url": "https://www.elastic.co/jp/",
     "image": "elastic",
     "type": "logo"
+  },
+  {
+    "name": "はてな",
+    "url": "https://mackerel.io/",
+    "image": "mackerel",
+    "type": "logo"
   }
 ]
