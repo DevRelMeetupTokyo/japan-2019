@@ -2,5 +2,5 @@
 layout: speaker
 permalink: /speakers/woosyume/
 id: woosyume
-speaker: 宇赫金（楽天）
+speaker: 金宇赫（楽天）
 ---
