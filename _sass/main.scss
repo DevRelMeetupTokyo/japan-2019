@@ -338,6 +338,19 @@ h2.font_oswald {
 	margin: 30px 0 30px 0;
 }
 
+.about__content {
+	table {
+		margin-bottom: 50px;
+	}
+	td {
+		padding: 0 10px 10px 0;
+	}
+	th {
+		width: 15%;
+		padding: 0 0 0 10px;
+	}
+}
+
 /******************************************
 以下、bootstrapデフォルト記述。基本触らない
 *******************************************/

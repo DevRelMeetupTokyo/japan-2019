@@ -1,0 +1,40 @@
+<div class="fluid_extend fluid_extend--glay">
+  <div class="container py-4 py-sm-5 header-content">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 id="speakers" class="font_oswald mb-1">SPEAKER</h2>
+        <p class="mb-4 mb-sm-5 text-primary">スピーカー</p>
+      </div>
+    </div><!-- row -->
+    
+    <div class="row">
+      {% for session in site.data.sessions %}
+        {% if session.speaker == 'true' %}
+          <div class="col-6 col-md-3 mb-4 mb-sm-5">
+            <a href="./speakers/{{ session.id }}/" class="people-detail__ph">
+              <img class="img-fluid" src="assets/img/speakers/{{ session.id }}.jpg" alt="{{ session.name }}">
+            </a>
+            <div class="people-detail p-2 p-sm-2">
+              <p class="people-detail__name text-white text-center mb-1">{{ session.name }}
+                {% if session.company != '' %}
+                  （{{ session.company }}）
+                {% endif %}
+              </p>
+              <p class="people-detail__links mb-0 text-center">
+                {% if session.twitter != '' %}
+                  <a href="https://twitter.com/{{ session.twitter }}" target="_blank" class="text-white"><i class="fab fa-twitter-square"></i></a>
+                {% endif %}
+                {% if session.github != '' %}
+                  <a href="https://github.com/{{ session.github }}" target="_blank" class="text-white"><i class="fab fa-github-square"></i></a>
+                {% endif %}
+                {% if session.web != '' %}
+                  <a href="{{ session.web }}" target="_blank" class="text-white"><i class="fas fa-globe"></i></a>
+                {% endif %}
+              </p>
+            </div><!-- people-detail -->
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div><!-- container-fluid -->
+</div><!-- /speaker_extend -->
