@@ -100,5 +100,11 @@
     "url": "https://www.acquia.com/jp",
     "image": "acquia",
     "type": "logo"
+  },
+  {
+    "name": "株式会社サイダス",
+    "url": "https://www.cydas.com/",
+    "image": "cydas",
+    "type": "logo"
   }
 ]
