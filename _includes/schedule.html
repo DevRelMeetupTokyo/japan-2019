@@ -18,32 +18,7 @@
             <tbody>
               {% for session in site.data.sessions %}
                 {% if session.track == '3' or session.track == '1' %}
-                  <tr>
-                    <th scope="row">{{ session.time }}</th>
-                    <td>
-                      <img class="rounded-circle" src="assets/img/speakers/{{ session.id }}.jpg" alt="{{ session.name }}" width="80" height="80" />
-                    </td>
-                    <td>
-                      {% if session.speaker == 'true' %}
-                        <a href="./speakers/{{ session.id }}/" class="people-detail__ph">{{ session.title }}</a>
-                      {% else %}
-                        {% if session.title == '' %}
-                          後日公開！
-                        {% else %}
-                          {{ session.title }}
-                        {% endif %}
-                      {% endif %}
-                      {% if session.name != '' %}
-                        <span>
-                          {% if session.speaker == 'true' %}
-                            <a href="./speakers/{{ session.id }}/" class="people-detail__ph">{{ session.name }}</a>{% if session.company != '' %}, {{ session.company }}{% endif %}
-                          {% else %}
-                            {{ session.name }}{% if session.company != '' %}, {{ session.company }}{% endif %}
-                          {% endif %}
-                        </span>
-                      {% endif %}
-                    </td>
-                  </tr>
+                  {% include session.html session=session %}
                 {% endif %}
               {% endfor %}
             </tbody>
@@ -54,32 +29,7 @@
             <tbody>
               {% for session in site.data.sessions %}
                 {% if session.track == '3' or session.track == '2' %}
-                  <tr>
-                    <th scope="row">{{ session.time }}</th>
-                    <td>
-                      <img class="rounded-circle" src="assets/img/speakers/{{ session.id }}.jpg" alt="{{ session.name }}" width="80" height="80" />
-                    </td>
-                    <td>
-                      {% if session.speaker == 'true' %}
-                        <a href="./speakers/{{ session.id }}/" class="people-detail__ph">{{ session.title }}</a>
-                      {% else %}
-                        {% if session.title == '' %}
-                          後日公開！
-                        {% else %}
-                          {{ session.title }}
-                        {% endif %}
-                      {% endif %}
-                      {% if session.name != '' %}
-                        <span>
-                          {% if session.speaker == 'true' %}
-                            <a href="./speakers/{{ session.id }}/" class="people-detail__ph">{{ session.name }}</a>{% if session.company != '' %}, {{ session.company }}{% endif %}
-                          {% else %}
-                            {{ session.name }}{% if session.company != '' %}, {{ session.company }}{% endif %}
-                          {% endif %}
-                        </span>
-                      {% endif %}
-                    </td>
-                  </tr>
+                  {% include session.html session=session %}
                 {% endif %}
               {% endfor %}
             </tbody>

@@ -13,7 +13,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "13:00",
@@ -29,7 +31,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "13:10",
@@ -45,7 +49,9 @@
     "github": "taijihagino",
     "linkedin": "taiponrock",
     "web": "https://developer.ibm.com/jp/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "13:50",
@@ -53,15 +59,17 @@
     "title": "パネルディスカッション",
     "description": "",
     "company": "",
-    "name": "",
-    "id": "",
+    "name": "丸山ひかる",
+    "id": "hikaru",
     "profile": "",
-    "twitter": "",
-    "facebook": "",
-    "github": "",
+    "twitter": "maruyamahiakru",
+    "facebook": "hikaru.maruyama.54",
+    "github": "hmaruyama",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "true",
+    "panel": "true",
+    "lt": ""
   },
   {
     "time": "14:30",
@@ -77,7 +85,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "14:45",
@@ -93,7 +103,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://missasan.hatenablog.com/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "14:45",
@@ -109,7 +121,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://mvp.microsoft.com/en-us/PublicProfile/5002150",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "15:15",
@@ -125,7 +139,9 @@
     "github": "",
     "linkedin": "",
     "web": "http://blog.johtani.info",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "15:15",
@@ -141,7 +157,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://speakerdeck.com/nishiuma/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "15:40",
@@ -157,7 +175,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "15:50",
@@ -173,7 +193,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://boot-camp.cloud-config.jp/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "15:50",
@@ -189,7 +211,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://yoshidashingo.hatenablog.com",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "16:20",
@@ -205,7 +229,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://www.failuresharing.com/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "16:20",
@@ -221,7 +247,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://kondoyuko.hatenablog.com/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "16:45",
@@ -237,7 +265,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "16:55",
@@ -253,7 +283,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "16:55",
@@ -269,7 +301,9 @@
     "github": "neri78",
     "linkedin": "",
     "web": "https://neriwasabi.hatenablog.com/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "17:25",
@@ -285,7 +319,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://about.me/wyamazak",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "17:25",
@@ -301,7 +337,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "17:50",
@@ -317,7 +355,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "18:00",
@@ -331,9 +371,11 @@
     "twitter": "goofmint",
     "facebook": "goofmint",
     "github": "goofmint",
-    "linkedin": "",
+    "linkedin": "goofmint",
     "web": "https://devrel.jp/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "18:30",
@@ -349,7 +391,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "18:45",
@@ -365,7 +409,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": "true"
   },
   {
     "time": "21:00",
@@ -381,6 +427,8 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   }
 ]
