@@ -13,7 +13,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "13:00",
@@ -29,7 +31,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "13:10",
@@ -45,23 +49,27 @@
     "github": "taijihagino",
     "linkedin": "taiponrock",
     "web": "https://developer.ibm.com/jp/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "13:50",
     "track": "3",
-    "title": "パネルディスカッション",
-    "description": "",
+    "title": "パネルディスカッション：企業の経営層から見るDevRelの価値とは？",
+    "description": "DevRelのような新しい概念を会社で実践する際に頭に入れておきたいのが、社内への説明やステークホルダーの理解です。\n企業の経営層はDevRelをどのように見て、どんな価値を見出すのでしょうか。\nこちらのパネルディスカッションでは、すでにDevRelを積極的に実践している企業の経営層の方々をお招きして、どのように自社でDevRelを推し進めていったのかなど深掘りしてディスカッションしていきます。",
     "company": "",
-    "name": "",
-    "id": "",
+    "name": "丸山ひかる",
+    "id": "hikaru",
     "profile": "",
-    "twitter": "",
-    "facebook": "",
-    "github": "",
+    "twitter": "maruyamahiakru",
+    "facebook": "hikaru.maruyama.54",
+    "github": "hmaruyama",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "true",
+    "panel": "true",
+    "lt": ""
   },
   {
     "time": "14:30",
@@ -77,7 +85,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "14:45",
@@ -93,7 +103,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://missasan.hatenablog.com/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "14:45",
@@ -109,7 +121,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://mvp.microsoft.com/en-us/PublicProfile/5002150",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "15:15",
@@ -125,7 +139,9 @@
     "github": "",
     "linkedin": "",
     "web": "http://blog.johtani.info",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "15:15",
@@ -141,7 +157,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://speakerdeck.com/nishiuma/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "15:40",
@@ -157,13 +175,15 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "15:50",
     "track": "1",
     "title": "エバンジェリスト誕生 - 半年間の軌跡",
-    "description": "彼女は会社で最も成績の優秀な採用担当者でした。この会社ではフルスタックのクラウドエンジニアの採用を推進しており、その中で彼女は好奇心をもって仕事に取り組んでいました。どうしたらもっと採用に自分が関われるのか、どうやったら評価を自分も一緒にできるのか、等。彼女はエンジニアの仕事の内容と、採用に使用されるプログラミングテストの内容に自然に興味を持っていました。もちろん、彼女は技術的な専門家ではなく、その内容を他の人にゆだねていたのです。 ある時、私は彼女の社内説明を聞き、閃きました。彼女のトークに、エバンジェリストとしての優れた才能の片鱗を見出したのです。 それから私と彼女との二人三脚の日々が始まりました。 トレーニングして結果が出る部分、直ぐに理解できる部分もあれば、なかなかうまくいかない部分もあります。でも砂に水がしみ込むようにあっという間に成長はやってきました。 でも、その成功の過程で、苦悩、葛藤など、様々なことがありました。 そして結果を出して、また次のチャレンジに向かっています。 この成長の軌跡を、会社のマーケティングやサービスのためにエバンジェリストを養成したい会社や組織だけでなく、開発者コミュニティの人々のためにも共有したいと思います。",
+    "description": "彼女はとても成果を上げていた優秀な採用担当者でした。この会社ではフルスタックのクラウドエンジニアの採用を推進しており、その中で彼女は好奇心をもって仕事に取り組んでいました。どうしたらもっと採用に自分が関われるのか、どうやったら評価を自分も一緒にできるのか、等。彼女はエンジニアの仕事の内容と、採用に使用されるプログラミングテストの内容に自然に興味を持っていました。もちろん、彼女は技術的な専門家ではなく、その内容を他の人にゆだねていたのです。 ある時、私は彼女の社内説明を聞き、閃きました。彼女のトークに、エバンジェリストとしての優れた才能の片鱗を見出したのです。 それから私と彼女との二人三脚の日々が始まりました。 トレーニングして結果が出る部分、直ぐに理解できる部分もあれば、なかなかうまくいかない部分もあります。でも砂に水がしみ込むようにあっという間に成長はやってきました。 でも、その成功の過程で、苦悩、葛藤など、様々なことがありました。 そして結果を出して、また次のチャレンジに向かっています。 この成長の軌跡を、会社のマーケティングやサービスのためにエバンジェリストを養成したい会社や組織だけでなく、開発者コミュニティの人々のためにも共有したいと思います。",
     "company": "FIXER",
     "name": "鈴木章太郎",
     "id": "shotaro",
@@ -173,7 +193,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://boot-camp.cloud-config.jp/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "15:50",
@@ -189,7 +211,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://yoshidashingo.hatenablog.com",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "16:20",
@@ -205,7 +229,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://www.failuresharing.com/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "16:20",
@@ -221,7 +247,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://kondoyuko.hatenablog.com/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "16:45",
@@ -237,7 +265,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "16:55",
@@ -253,7 +283,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "16:55",
@@ -269,7 +301,9 @@
     "github": "neri78",
     "linkedin": "",
     "web": "https://neriwasabi.hatenablog.com/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "17:25",
@@ -285,7 +319,9 @@
     "github": "",
     "linkedin": "",
     "web": "https://about.me/wyamazak",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "17:25",
@@ -301,7 +337,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "17:50",
@@ -317,7 +355,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "18:00",
@@ -331,9 +371,11 @@
     "twitter": "goofmint",
     "facebook": "goofmint",
     "github": "goofmint",
-    "linkedin": "",
+    "linkedin": "goofmint",
     "web": "https://devrel.jp/",
-    "speaker": "true"
+    "speaker": "true",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "18:30",
@@ -349,7 +391,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   },
   {
     "time": "18:45",
@@ -365,7 +409,9 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": "true"
   },
   {
     "time": "21:00",
@@ -381,6 +427,8 @@
     "github": "",
     "linkedin": "",
     "web": "",
-    "speaker": ""
+    "speaker": "",
+    "panel": "",
+    "lt": ""
   }
 ]
