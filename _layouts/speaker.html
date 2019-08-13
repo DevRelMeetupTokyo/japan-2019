@@ -52,22 +52,46 @@
       <div class="container">
         
       <div class="row">
-          <div class="col-12 text-center">
-            <h2 class="font_oswald mb-1">TALK OVERVIEW</h2>
-            <p class="mb-4 mb-sm-5 text-primary">トーク概要</p>
-          </div>
+        <div class="col-12 text-center">
+          <h2 class="font_oswald mb-1">TALK OVERVIEW</h2>
+          <p class="mb-4 mb-sm-5 text-primary">トーク概要</p>
+        </div>
         </div><!-- row -->
 
         <div class="row">
-            <div class="col-12 text-center">
-              <h3 class="talkov_extend__title mt-0">{{ session.title }}</h3>
+          <div class="col-12 text-center">
+            <h3 class="talkov_extend__title mt-0">{{ session.title }}</h3>
+          </div>
+          <div class="col-12">
+            <div class="talkov_extend__area">
+              {{ session.description | markdownify }}
             </div>
-            <div class="col-12">
-              <div class="talkov_extend__area">
-                {{ session.description | markdownify }}
+          </div>
+        </div>
+        {% if session.panel == 'true' %}
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="font_oswald mb-1">PANELIST</h2>
+              <p class="mb-4 mb-sm-5 text-primary">パネリスト</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center">
+              <div class="row">
+                {% for paneler in site.data.panelers %}
+                  <div class="col-3">
+                    <p>
+                      <img class="rounded-circle" src="{{ site.baseurl }}/assets/img/speakers/{{ paneler.id }}.jpg" alt="{{ paneler.name }}" width="150" height="150" />
+                    </p>
+                    <p>
+                      {{ paneler.name }}, {{ paneler.company }}
+                    </p>
+                  </div>
+                {% endfor %}
               </div>
             </div>
-          </div><!-- row -->
+          </div>
+        {% endif %}
         </div><!-- container-fluid -->
       </div><!-- fluid_extend -->
     {% include footer.html %}
