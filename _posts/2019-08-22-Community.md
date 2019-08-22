@@ -1,4 +1,4 @@
-a---
+---
 title:  "コミュニティ マーケティングにお悩みの方へ"
 date:   2019-08-22 19:00:00 +0000
 author: Wataru Yamazaki
