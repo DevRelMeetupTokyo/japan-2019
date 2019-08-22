@@ -40,6 +40,7 @@ sass:
 exclude:
   - docker-compose.yml
   - README.md
+  - .git
 #   - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/

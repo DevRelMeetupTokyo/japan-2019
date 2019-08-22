@@ -2,6 +2,109 @@
   {
     "name": "MOONGIFT",
     "url": "https://devrel.jp/",
-    "image": "moongift"
+    "image": "moongift",
+    "type": "logo"
+  },
+  {
+    "name": "CData Software Japan",
+    "url": "https://www.cdata.com/jp/",
+    "image": "cdata",
+    "type": "logo"
+  },
+  {
+    "name": "グレープシティ",
+    "url": "https://www.grapecity.co.jp/developer",
+    "image": "grapecity",
+    "type": "logo"
+  },
+  {
+    "name": "ヴァル研究所",
+    "url": "https://ekiworld.net/service/lp/webservice/",
+    "image": "val",
+    "type": "logo"
+  },
+  {
+    "name": "マジセミ",
+    "url": "https://majisemi.com/service/",
+    "image": "majisemi",
+    "type": "logo"
+  },
+  {
+    "name": "インフラジスティックス",
+    "url": "https://jp.infragistics.com/user-group-sponsorships",
+    "image": "infragistics",
+    "type": "logo"
+  },
+  {
+    "name": "ウフル",
+    "url": "https://uhuru.co.jp/",
+    "image": "uhuru",
+    "type": "logo"
+  },
+  {
+    "name": "マイクロソフト",
+    "url": "https://azure.microsoft.com/ja-jp/",
+    "image": "microsoft",
+    "type": "logo"
+  },
+  {
+    "name": "ヌーラボ",
+    "url": "https://backlog.com/ja/",
+    "image": "backlog",
+    "type": "logo"
+  },
+  {
+    "name": "翔泳社",
+    "url": "https://codezine.jp/",
+    "image": "codezine",
+    "type": "media"
+  },
+  {
+    "name": "サイボウズ",
+    "url": "https://cybozu.co.jp/",
+    "image": "cybozu",
+    "type": "venue"
+  },
+  {
+    "name": "SBクラウド",
+    "url": "https://www.sbcloud.co.jp/ ",
+    "image": "sbcloud",
+    "type": "logo"
+  },
+  {
+    "name": "Twilio Japan",
+    "url": "https://www.twilio.com/",
+    "image": "twilio",
+    "type": "logo"
+  },
+  {
+    "name": "オープンストリーム",
+    "url": "https://www.opst.co.jp/",
+    "image": "opst",
+    "type": "logo"
+  },
+  {
+    "name": "Elastic",
+    "url": "https://www.elastic.co/jp/",
+    "image": "elastic",
+    "type": "logo"
+  },
+  {
+    "name": "はてな",
+    "url": "https://mackerel.io/",
+    "image": "mackerel",
+    "type": "logo"
+  },
+  {
+    "name": "アクイアジャパン",
+    "url": "https://www.acquia.com/jp",
+    "image": "acquia",
+    "type": "logo"
+  },
+  {
+    "name": "株式会社サイダス",
+    "url": "https://www.cydas.com/",
+    "image": "cydas",
+    "type": "logo"
   }
 ]
