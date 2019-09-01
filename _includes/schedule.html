@@ -1,0 +1,41 @@
+<div class="fluid_extend">
+    <div class="container py-4 py-sm-5 header-content">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 id="schedule" class="font_oswald mb-1">SCHEDULE</h2>
+          <p class="mb-4 mb-sm-5 text-primary">スケジュール</p>
+        </div>
+      </div><!-- row -->
+      
+      <ul class="nav nav-fill nav-tabs-extend">
+        <li class="nav-item"><a class="nav-link active" href="#tab1" data-toggle="tab">トラック1</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tab2" data-toggle="tab">トラック2</a></li>
+      </ul>
+      
+      <div class="tab-content schedule_extend">
+        <div id="tab1" class="tab-pane active">
+          <table class="table">
+            <tbody>
+              {% for session in site.data.sessions %}
+                {% if session.track == '3' or session.track == '1' %}
+                  {% include session.html session=session %}
+                {% endif %}
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        <div id="tab2" class="tab-pane">
+          <table class="table">
+            <tbody>
+              {% for session in site.data.sessions %}
+                {% if session.track == '3' or session.track == '2' %}
+                  {% include session.html session=session %}
+                {% endif %}
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div><!-- tab-content -->
+  </div><!-- container-fluid -->
+</div><!-- /fluid_extend -->

@@ -1,0 +1,19 @@
+<div class="fluid_extend fluid_extend--glay speakers">
+  <div class="container py-4 py-sm-5 header-content">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 id="speakers" class="font_oswald mb-1">SPEAKER</h2>
+        <p class="mb-4 mb-sm-5 text-primary">スピーカー</p>
+      </div>
+    </div><!-- row -->
+    
+    <div class="row">
+      {% for session in site.data.sessions %}
+        {% include speaker.html session=session %}
+      {% endfor %}
+      {% for session in site.data.lts %}
+        {% include speaker.html session=session %}
+      {% endfor %}
+    </div>
+  </div><!-- container-fluid -->
+</div><!-- /speaker_extend -->

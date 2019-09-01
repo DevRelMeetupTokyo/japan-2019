@@ -124,6 +124,9 @@ h2.font_oswald {
 	&__bgpink{
 		background-color: rgba($pink,0.1);
 	}
+	&__bggray{
+		background-color: #f9f9f9;
+	}
 }//twocol_extend
 
 .fluid_extend{
@@ -136,18 +139,15 @@ h2.font_oswald {
 	background-color: #333;
 	border-top: 5px solid $pink;
 	&__name{
-		font-size: 1.1rem;
-		@include mq("sm"){
-			font-size: 1.3rem;
-		}
+		font-weight: 100;
 	}
 	&__links{
-		font-size: 1.4rem;
 		i{
 			&:hover{
 				color: #ccc;
 			}
 		}
+		margin-left: 2px;
 	}
 	&__ph{
 		&:hover{
@@ -335,6 +335,24 @@ h2.font_oswald {
 		}
 	}
 }//media_extend
+
+
+.row.content__logo {
+	margin: 30px 0 30px 0;
+}
+
+.about__content {
+	table {
+		margin-bottom: 50px;
+	}
+	td {
+		padding: 0 10px 10px 0;
+	}
+	th {
+		width: 15%;
+		padding: 0 0 0 10px;
+	}
+}
 
 /******************************************
 以下、bootstrapデフォルト記述。基本触らない

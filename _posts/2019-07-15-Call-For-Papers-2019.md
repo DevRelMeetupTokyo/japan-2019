@@ -4,6 +4,8 @@ date:   2019-07-15 12:00:00 +0000
 author: Wataru Yamazaki
 ---
 
+DevRel/Japan Conference 2019 運営メンバーの 山崎 亘 です。
+
 「DevRel Japanに参加すると、今まで知らなかったことが聞けるかな？」「自分の得意な分野以外も知れるかな？」「どのくらいのレベルなんだろう」とか思われるかも知れません。
 
 実はこの日は、みなさんのナレッジを結集する場でもあります。
@@ -21,8 +23,6 @@ author: Wataru Yamazaki
 
 さまざまな皆さんの参加によって、今回初開催の「DevRel/Japan Conference 2019」を素晴らしい体験の一日に作り上げましょう。ご協力をお願いいたします。
 
-ひとまずアイディアをまとめて、Call for Papersにて応募してください。応募内容について疑問点や悩みがある方、発表したいけど内容が決まらない方などなど、遠慮なく「[ORGANIZERS（主催）](https://devrel.tokyo/japan-2019/#orgnaizers)」に記載の運営メンバーにご連絡ください。もちろん、「[CONTACT（お問い合わせ）](https://devrel.tokyo/japan-2019/#contact)」からのご連絡でも構いません。そう、善は急げ。今すぐアクションを！
+ひとまずアイディアをまとめて、Call for Papersにて応募してください。応募内容について疑問点や悩みがある方、発表したいけど内容が決まらない方などなど、遠慮なく [ORGANIZERS（主催）](/japan-2019/#organizers) に記載の運営メンバーにご連絡ください。もちろん、 [CONTACT（お問い合わせ）](/japan-2019/#contact) からのご連絡でも構いません。そう、善は急げ。今すぐアクションを！
 
-詳細・ご応募は [こちら](https://www.papercall.io/devrel-japan-2019)  から
-
-（DevRel/Japan Conference 2019 運営メンバー：山崎　亘）
+詳細・ご応募は [こちら](https://www.papercall.io/devrel-japan-2019)  から。

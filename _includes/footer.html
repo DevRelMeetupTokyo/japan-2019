@@ -2,7 +2,7 @@
   <div class="row">
     
       <div class="col-12 col-md-6 text-center p-4 p-sm-5 twocol_extend__bgpink">
-          <h2 class="font_oswald mb-1">CONTACT</h2>
+          <h2 id="contact" class="font_oswald mb-1">CONTACT</h2>
           <p class="mb-4 mb-sm-3 text-primary">お問い合わせ</p>
           <div class="twocol_extend__width text-left mx-sm-auto">
             <form autocomplete="false" role="form" method="post" action="https://ma.moongift.co.jp/form/submit?formId=7" id="mauticform_devreljapanwenihewasefomu" data-mautic-form="devreljapanwenihewasefomu" enctype="multipart/form-data">
@@ -84,10 +84,11 @@
   </div><!-- /fluid_extend -->
 </div>
 
+<span id="ruler" style="visibility:hidden;position:absolute;white-space:nowrap;"></span>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 <script type="text/javascript">
     /** This section is only needed once per page if manually copying **/
     if (typeof MauticSDKLoaded == 'undefined') {
@@ -105,4 +106,48 @@
             'submittingMessage': "お待ちください…"
         }
     }
+    const strWidth = (str) => {
+      const e = $("#ruler");
+      const width = e.text(str).get(0).offsetWidth;
+      e.empty();
+      return width;
+    }
+    const changeStyle = () => {
+      const patterns = {};
+      let fontSize = 0;
+      document.querySelectorAll('.speakers .people-detail__name').forEach(d => {
+        if (!patterns[d.clientHeight]) patterns[d.clientHeight] = 0;
+        patterns[d.clientHeight]++;
+        fontSize = parseFloat(window.getComputedStyle(d, null).getPropertyValue('font-size'));
+      });
+      let maxSize = 0;
+      let cssHeight = 0;
+      for (let key in patterns) {
+        if (patterns[key] > maxSize) {
+          cssHeight = parseInt(key);
+          maxSize = patterns[key];
+        }
+      }
+      document.querySelectorAll('.speakers .people-detail__name').forEach(d => {
+        if (d.clientHeight > cssHeight) {
+          const rate =  d.clientWidth / strWidth(d.innerText.trim()) - 0.1;
+          console.log(rate);
+          d.style.fontSize = (fontSize * rate) + 'px';
+          d.style.height = cssHeight + 'px';
+        }
+        if (d.clientHeight < cssHeight) {
+          d.style.fontSize = fontSize + 'px';
+          d.style.height = cssHeight + 'px';
+        }
+      });
+    }
+    document.addEventListener('DOMContentLoaded', e => {
+      changeStyle();
+    });
 </script>
+
+<style>
+  .speakers .people-detail__name {
+    word-break: break-all;
+  }
+</style>
