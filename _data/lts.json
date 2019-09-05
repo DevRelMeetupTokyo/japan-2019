@@ -1,16 +1,58 @@
 [
   {
-    "title": "TBD",
-    "description": "",
+    "title": "DevRelをサポートする立場と開発者の立場からみる効果的なアウトプットTIPS",
+    "description": "DevRelをサポートする立場と開発者の立場を両立する私の活動から見えてきた、DevRelに効果的なアウトプットのTIPSをお伝えします。開発者に伝わりやすいアウトプットとは、シンプルさ・組み合わせ・素直さの3つが大切です。それぞれ具体的なアウトプットを例に開発者の目線から開発者にどう伝わるかを解説します。\nDevRelとしてアウトプットはしているけどよりクオリティを上げたい皆さま、開発者とより良い関係を作りたい皆さま、ぜひ聞いてください！",
     "company": "ワンフットシーバス",
     "name": "田中 正吾",
     "id": "seigo",
     "profile": "",
-    "twitter": "",
+    "twitter": "1ft_seabass",
     "facebook": "seigo.tanaka",
     "github": "",
     "linkedin": "",
-    "web": "",
+    "web": "https://1ft-seabass.jp/",
+    "speaker": "true"
+  },
+  {
+    "title": "TBD",
+    "description": "",
+    "company": "Innerstudio",
+    "name": "鍋島 理人",
+    "id": "nabeshima",
+    "profile": "",
+    "twitter": "nabemasat",
+    "facebook": "masato.nabeshima",
+    "github": "",
+    "linkedin": "",
+    "web": "https://innerstudio.jp/",
+    "speaker": "true"
+  },
+  {
+    "title": "TBD",
+    "description": "",
+    "company": "メディアドゥ",
+    "name": "森川 晃",
+    "id": "ariaki",
+    "profile": "",
+    "twitter": "ariaki4dev",
+    "facebook": "",
+    "github": "",
+    "linkedin": "",
+    "web": "https://gishohaku.dev/",
+    "speaker": "true"
+  },
+  {
+    "title": "TBD",
+    "description": "",
+    "company": "freee",
+    "name": "長内 毅志",
+    "id": "nick",
+    "profile": "",
+    "twitter": "Nick_smallworld",
+    "facebook": "Nick.smallworld",
+    "github": "",
+    "linkedin": "",
+    "web": "https://www.wantedly.com/users/60020",
     "speaker": "true"
   }
 ]
