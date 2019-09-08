@@ -106,6 +106,7 @@
             'submittingMessage': "お待ちください…"
         }
     }
+    
     const strWidth = (str) => {
       const e = $("#ruler");
       const width = e.text(str).get(0).offsetWidth;
@@ -143,6 +144,12 @@
     }
     document.addEventListener('DOMContentLoaded', e => {
       changeStyle();
+      $('.nav-tabs-extend a').on('shown.bs.tab', function(event){
+        $('.speakerdeck-embed-wrapper iframe').css({
+          width: '735px',
+          height: '413px'
+        })
+      });
     });
 </script>
 

@@ -75,13 +75,18 @@
         {% endif %}
       {% endif %}
       {% if session.name != '' %}
-      <span>
-        {% if session.speaker == 'true' %}
-          <a href="./speakers/{{ session.id }}/" class="people-detail__ph">{{ session.name }}</a>{% if session.company != '' %}, {{ session.company }}{% endif %}
-        {% else %}
-          {{ session.name }}{% if session.company != '' %}, {{ session.company }}{% endif %}
-        {% endif %}
-      </span>
+        <span>
+          {% if session.speaker == 'true' %}
+            <a href="./speakers/{{ session.id }}/" class="people-detail__ph">{{ session.name }}</a>{% if session.company != '' %}, {{ session.company }}{% endif %}
+            {% if session.slide != '' %}
+              <p>
+                {{ session.slide }}
+              </p>
+            {% endif %}
+          {% else %}
+            {{ session.name }}{% if session.company != '' %}, {{ session.company }}{% endif %}
+          {% endif %}
+        </span>
       {% endif %}
     {% endif %}
   </td>
