@@ -11,7 +11,8 @@
     "github": "",
     "linkedin": "",
     "web": "https://1ft-seabass.jp/",
-    "speaker": "true"
+    "speaker": "true",
+    "slide": "https://speakerdeck.com/1ftseabass/japan-conference-2019-lt"
   },
   {
     "title": "TBD",
@@ -25,7 +26,8 @@
     "github": "",
     "linkedin": "",
     "web": "https://innerstudio.jp/",
-    "speaker": "true"
+    "speaker": "true",
+    "slide": ""
   },
   {
     "title": "TBD",
@@ -39,7 +41,8 @@
     "github": "",
     "linkedin": "",
     "web": "https://gishohaku.dev/",
-    "speaker": "true"
+    "speaker": "true",
+    "slide": "https://speakerdeck.com/ariaki/protecting-community-safety"
   },
   {
     "title": "TBD",
@@ -53,7 +56,8 @@
     "github": "",
     "linkedin": "",
     "web": "https://www.wantedly.com/users/60020",
-    "speaker": "true"
+    "speaker": "true",
+    "slide": ""
   },
   {
     "title": "TBD",
@@ -67,6 +71,7 @@
     "github": "",
     "linkedin": "",
     "web": "https://medium.com/@Tukimikage/",
-    "speaker": "true"
+    "speaker": "true",
+    "slide": ""
   }
 ]

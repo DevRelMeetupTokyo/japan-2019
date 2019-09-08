@@ -67,6 +67,13 @@
               {{ session.description | markdownify }}
             </div>
           </div>
+          <div class="col-12">
+            {% if session.slide != '' %}
+              <p>
+                {{ session.slide }}
+              </p>
+            {% endif %}
+          </div>
         </div>
         {% if session.panel == 'true' %}
           <div class="row">
