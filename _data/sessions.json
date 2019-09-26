@@ -16,7 +16,9 @@
     "web": "",
     "speaker": "",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "",
+    "public": ""
   },
   {
     "time": "13:00",
@@ -35,7 +37,9 @@
     "web": "",
     "speaker": "",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/wBwBSNIktf8",
+    "public": "true"
   },
   {
     "time": "13:10",
@@ -54,7 +58,9 @@
     "web": "https://developer.ibm.com/jp/",
     "speaker": "true",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/1YbGuH0xO8Q",
+    "public": "true"
   },
   {
     "time": "13:50",
@@ -73,7 +79,9 @@
     "web": "",
     "speaker": "true",
     "panel": "true",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/H3ADCvsh-6k",
+    "public": ""
   },
   {
     "time": "14:30",
@@ -92,7 +100,9 @@
     "web": "",
     "speaker": "",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "",
+    "public": ""
   },
   {
     "time": "14:45",
@@ -111,7 +121,9 @@
     "web": "https://missasan.hatenablog.com/",
     "speaker": "true",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/g9Ztns1Ulo0",
+    "public": ""
   },
   {
     "time": "14:45",
@@ -130,7 +142,9 @@
     "web": "https://mvp.microsoft.com/en-us/PublicProfile/5002150",
     "speaker": "true",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/F3-wnO0wbIU",
+    "public": "true"
   },
   {
     "time": "15:15",
@@ -149,7 +163,9 @@
     "web": "http://blog.johtani.info",
     "speaker": "true",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/EVQOpEmv6So",
+    "public": ""
   },
   {
     "time": "15:15",
@@ -168,7 +184,9 @@
     "web": "https://speakerdeck.com/nishiuma/",
     "speaker": "true",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/koswVWtiAm4",
+    "public": ""
   },
   {
     "time": "15:40",
@@ -187,7 +205,9 @@
     "web": "",
     "speaker": "",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "",
+    "public": ""
   },
   {
     "time": "15:50",
@@ -206,7 +226,9 @@
     "web": "https://boot-camp.cloud-config.jp/",
     "speaker": "true",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/SSf_n0cr77w",
+    "public": ""
   },
   {
     "time": "15:50",
@@ -225,7 +247,9 @@
     "web": "https://yoshidashingo.hatenablog.com",
     "speaker": "true",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/-SEE1G_PLTU",
+    "public": ""
   },
   {
     "time": "16:20",
@@ -244,7 +268,9 @@
     "web": "https://www.failuresharing.com/",
     "speaker": "true",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/hj8THSDRAJY",
+    "public": ""
   },
   {
     "time": "16:20",
@@ -263,7 +289,9 @@
     "web": "https://kondoyuko.com/",
     "speaker": "true",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/4QoVFsrcXqY",
+    "public": ""
   },
   {
     "time": "16:45",
@@ -282,7 +310,9 @@
     "web": "",
     "speaker": "",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "",
+    "public": ""
   },
   {
     "time": "16:55",
@@ -301,7 +331,9 @@
     "web": "",
     "speaker": "true",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/RQhq7KJhaIQ",
+    "public": ""
   },
   {
     "time": "16:55",
@@ -320,7 +352,9 @@
     "web": "https://neriwasabi.hatenablog.com/",
     "speaker": "true",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/Ag02fcSTgV0",
+    "public": ""
   },
   {
     "time": "17:25",
@@ -339,7 +373,9 @@
     "web": "https://about.me/wyamazak",
     "speaker": "true",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/NWiAIgoDhiY",
+    "public": "true"
   },
   {
     "time": "17:25",
@@ -358,7 +394,9 @@
     "web": "",
     "speaker": "true",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/iN4ajbIERY8",
+    "public": ""
   },
   {
     "time": "17:50",
@@ -377,7 +415,9 @@
     "web": "",
     "speaker": "",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "",
+    "public": ""
   },
   {
     "time": "18:00",
@@ -396,7 +436,9 @@
     "web": "https://devrel.jp/",
     "speaker": "true",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/magS9nxvUWU",
+    "public": "true"
   },
   {
     "time": "18:30",
@@ -415,7 +457,9 @@
     "web": "",
     "speaker": "",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "https://youtu.be/HHn3h8iyPT8",
+    "public": "true"
   },
   {
     "time": "18:45",
@@ -434,7 +478,9 @@
     "web": "",
     "speaker": "",
     "panel": "",
-    "lt": "true"
+    "lt": "true",
+    "youtube": "https://youtu.be/dUZijHq1es8",
+    "public": ""
   },
   {
     "time": "21:00",
@@ -453,6 +499,8 @@
     "web": "",
     "speaker": "",
     "panel": "",
-    "lt": ""
+    "lt": "",
+    "youtube": "",
+    "public": ""
   }
 ]

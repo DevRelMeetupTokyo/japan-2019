@@ -78,6 +78,10 @@
         <span>
           {% if session.speaker == 'true' %}
             <a href="./speakers/{{ session.id }}/" class="people-detail__ph">{{ session.name }}</a>{% if session.company != '' %}, {{ session.company }}{% endif %}
+            {% if session.public == 'true' %}
+              {% assign key = session.youtube | replace: 'https://youtu.be/', '' %}
+              <p><iframe width="560" height="315" src="https://www.youtube.com/embed/{{ key }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            {% endif %}
             {% if session.slide != '' %}
               <p>
                 {{ session.slide }}
