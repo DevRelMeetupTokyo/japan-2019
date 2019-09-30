@@ -57,6 +57,17 @@
                   {% else %}
                     {{ session.name }}{% if session.company != '' %}, {{ session.company }}{% endif %}
                   {% endif %}
+                  {% if session.public == 'true' %}
+                    {% assign key = session.youtube | replace: 'https://youtu.be/', '' %}
+                    <div class="youtube">
+                      <p><iframe width="560" height="315" src="https://www.youtube.com/embed/{{ key }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                    </div>
+                  {% endif %}
+                  {% if session.slide != '' %}
+                    <p>
+                      {{ session.slide }}
+                    </p>
+                  {% endif %}
                 </span>
                 {% endif %}
                 </div>
